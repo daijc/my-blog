@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Xiao Xiao
+title: 潇潇
 subtitle:
 description: 记录生活点滴，留存过往记忆
 keywords: [前端面试题, 小草无根, 花开无心, 落叶无根]
@@ -82,7 +82,20 @@ deploy:
   repository: git@github.com:daijc/daijc.github.io.git
   branch: master
 #avatar
-avatar: "http://i4.bvimg.com/658174/e37c1e48708d94bb.jpg"
+avatar: "http://pdliii7ak.bkt.clouddn.com/photo2.jpg"
 #recommended_posts
 recommended_posts:
   enabled: true
+
+# valine评论
+valine:
+  enable: true;
+  appId:  "bEFytQ4Rpyo4jzlqfudykpsp-gzGzoHsz"
+  appKey:  "9TNjGhdqST9S4QB3yieeAeEC"
+  guest_info: nick,mail
+  placeholder: 快来评论吧~
+  avatar: mp
+  pageSize: 10
+  verify: false
+  notify: false
+  lang: zh-cn
