@@ -22,6 +22,8 @@ Opera:以前是 presto 内核，Opera 现已改用 Google Chrome 的 Blink 内�
 Chrome:Blink(基于 webkit，Google 与 Opera Software 共同开发)
 ```
 
+<!--more-->
+
 ### 2、HTML文件里Doctype是干什么的？
 ```
 <!DOCTYPE> 声明位于文档中的最前面的位置，处于 <html> 标签之前。

@@ -16,8 +16,6 @@ tags:
 	- Web前端
 ---
 
-别人搜集的js常见面试题，分为基础部分和高级部分，个人觉得总结的挺全面，写下来权当温习，以便查阅。
-
 ## JS基础
 
 ### 1、javascript 的 typeof 返回哪些数据类型
@@ -31,6 +29,8 @@ Array.isARRAY(); es5
 toString.call([]);//”[object Array]” var arr=[];
 arr.constructor;//Array
 ```
+
+<!--more-->
 
 ### 2、例举 3 种强制类型转换和 2 种隐式类型转换?
 ```
