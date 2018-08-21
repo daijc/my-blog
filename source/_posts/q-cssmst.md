@@ -8,7 +8,6 @@ tags:
 	- Div+css
 	- Html5+css3
 	- 面试题
-	- Web前端
 ---
 
 ## HTML和CSS

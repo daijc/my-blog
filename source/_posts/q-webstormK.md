@@ -6,7 +6,6 @@ categories:
 tags:
 	- 前端
 	- Webstorm
-	- 快捷键
 ---
 
 ### 文件操作

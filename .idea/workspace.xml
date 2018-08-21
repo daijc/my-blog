@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="538d591a-6683-4235-b685-6ecc791fc533" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/material-x" afterPath="$PROJECT_DIR$/themes/material-x" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/q-cssmst.md" afterPath="$PROJECT_DIR$/source/_posts/q-cssmst.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/q-es6xtx.md" afterPath="$PROJECT_DIR$/source/_posts/q-es6xtx.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/q-jsal.md" afterPath="$PROJECT_DIR$/source/_posts/q-jsal.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/q-jsmst.md" afterPath="$PROJECT_DIR$/source/_posts/q-jsmst.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/q-webstormK.md" afterPath="$PROJECT_DIR$/source/_posts/q-webstormK.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/s-chunni.md" afterPath="$PROJECT_DIR$/source/_posts/s-chunni.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/s-huakai.md" afterPath="$PROJECT_DIR$/source/_posts/s-huakai.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/s-luoye.md" afterPath="$PROJECT_DIR$/source/_posts/s-luoye.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,21 +22,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="q-webstormK.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="q-webstormK.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/_posts/q-webstormK.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="11" />
+            <state relative-caret-position="133">
+              <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="q-jsal.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/_posts/q-jsal.md">
+      <file leaf-file-name="q-cssmst.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/q-cssmst.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            <state relative-caret-position="171">
+              <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -44,8 +45,28 @@
       <file leaf-file-name="q-es6xtx.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/q-es6xtx.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="149" column="0" lean-forward="true" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+            <state relative-caret-position="38">
+              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="q-jsal.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/q-jsal.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="q-jsmst.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/q-jsmst.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -79,8 +100,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/themes/material-x/layout/_partial/post.ejs" />
-        <option value="$PROJECT_DIR$/source/_posts/q-jsmst.md" />
-        <option value="$PROJECT_DIR$/source/_posts/q-cssmst.md" />
         <option value="$PROJECT_DIR$/themes/material-x/_config.yml" />
         <option value="$PROJECT_DIR$/themes/material-x/layout/_partial/scripts.ejs" />
         <option value="$PROJECT_DIR$/themes/landscape/layout/_partial/after-footer.ejs" />
@@ -93,9 +112,11 @@
         <option value="$PROJECT_DIR$/source/_posts/s-luoye.md" />
         <option value="$PROJECT_DIR$/source/_posts/s-huakai.md" />
         <option value="$PROJECT_DIR$/source/_posts/s-chunni.md" />
-        <option value="$PROJECT_DIR$/source/_posts/q-webstormK.md" />
         <option value="$PROJECT_DIR$/source/_posts/q-jsal.md" />
+        <option value="$PROJECT_DIR$/source/_posts/q-cssmst.md" />
+        <option value="$PROJECT_DIR$/source/_posts/q-jsmst.md" />
         <option value="$PROJECT_DIR$/source/_posts/q-es6xtx.md" />
+        <option value="$PROJECT_DIR$/source/_posts/q-webstormK.md" />
       </list>
     </option>
   </component>
@@ -268,6 +289,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="538d591a-6683-4235-b685-6ecc791fc533" name="Default" comment="" />
@@ -276,12 +300,12 @@
       <option name="presentableId" value="Default" />
       <updated>1534486396688</updated>
       <workItem from="1534486398631" duration="13416000" />
-      <workItem from="1534728805811" duration="22362000" />
+      <workItem from="1534728805811" duration="26016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35778000" />
+    <option name="totallyTimeSpent" value="39432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="590" y="4" width="1324" height="1035" extended-state="0" />
@@ -435,13 +459,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="0" column="974" lean-forward="false" selection-start-line="0" selection-start-column="965" selection-end-line="0" selection-end-column="974" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/q-cssmst.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -643,34 +661,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/q-jsmst.md">
+    <entry file="file://$PROJECT_DIR$/source/_posts/q-cssmst.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="11" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="15" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/q-webstormK.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="11" />
+        <state relative-caret-position="171">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/q-es6xtx.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="149" column="0" lean-forward="true" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+        <state relative-caret-position="38">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/q-jsmst.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/q-jsal.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="152">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/q-webstormK.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding />
         </state>
       </provider>

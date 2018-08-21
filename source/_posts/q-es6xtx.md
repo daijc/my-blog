@@ -7,7 +7,7 @@ tags:
 	- 前端
 	- Javascript
 	- 面试题
-    - ES6
+	- ES6
 ---
 
 ### 1、判断两个 Set 是否相同
@@ -162,4 +162,98 @@ const arrWithoutLoop = (n) => Array.apply(null,{length:n}).map((item,i)=>i)
 const arrWithoutLoop = n => [...Array(n).keys()]
 或
 const arrWithoutLoop = (n, arr = []) => n ? arr.unshift(n-1) && arrWithoutLoop(n-1, arr) : arr
+```
+
+### 9、后端数据处理
+```
+从某数据库接口得到如下值：
+{
+  rows: [
+    ["Lisa", 16, "Female", "2000-12-01"],
+    ["Bob", 22, "Male", "1996-01-21"]
+  ],
+  metaData: [
+    { name: "name", note: '' },
+    { name: "age", note: '' },
+    { name: "gender", note: '' },
+    { name: "birthday", note: '' }
+  ]
+}
+rows 是数据，metaData 是对数据的说明。现写一个函数 parseData，将上面的对象转化为期望的数组：
+[
+  { name: "Lisa", age: 16, gender: "Female", birthday: "2000-12-01" },
+  { name: "Bob", age: 22, gender: "Male", birthday: "1996-01-21" },
+]
+```
+```
+const parseData = (data) => {
+  let arr = [];
+  data.rows.map((row, index) => {
+  	let obj = {};
+  	row.map((ele, i) => {
+  		obj[data.metaData[i].name] = ele
+
+  	});
+    arr.push(obj);
+  });
+  return arr;
+}
+或
+const parseData = ({rows, metaData}) => rows.map(row => row.reduce((p, c, i) => Object.assign({}, p, {[metaData[i].name]: c}), {}))
+或
+const parseData = ({ rows, metaData }) =>
+    rows.map(v => {
+      const newObj = {}
+      for (let i in v) {
+        newObj[metaData[i].name] = v[i]
+      }
+      return newObj
+ })
+ 或
+ const parseData = (data) => {
+   const metaDataArr = data['metaData'].map(d => d.name);
+   const rows = data['rows'];
+   return rows.map(row =>{
+     return {
+         [metaDataArr[0]]:row[0],
+         [metaDataArr[1]]:row[1],
+         [metaDataArr[2]]:row[2],
+         [metaDataArr[3]]:row[3]
+       }
+     }
+   )
+ }
+ 或
+ const parseData = (data) => data.rows.map(x => {
+   return data.metaData.reduce((acc, meta, i) => ({ ...acc, [meta.name]: x[i] }) , {})
+ })
+```
+
+### 10、数组拍平
+```
+编写一个 JavaScript 函数，接受一个仅包含数字的 多维数组 ，返回拍平以后的结果。
+例如传入：[1, [[2], 3, 4], 5]，返回 [1, 2, 3, 4, 5]。
+```
+```
+const flatten = (arr) => {
+  let result = []
+  arr.forEach((item)=> {
+    if (Array.isArray(item)) {
+      result = result.concat(flatten(item));
+    } else {
+      result.push(item)
+    }
+  })
+  return result
+}
+或
+const flatten = (arr) => {
+  return arr.reduce((flat, toFlat) => {
+    return flat.concat(Array.isArray(toFlat) ? flatten(toFlat): toFlat);
+  }, []);
+}
+或
+const flatten = arr => arr.length ? arr.toString().split(',').map(x => parseInt(x)) : []
+或
+const flatten = (arr) => arr.length !== 0 ? arr.join().split(',').map(v => parseInt(v)) : arr;
 ```
