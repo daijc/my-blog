@@ -693,4 +693,35 @@ post 请求方式主要用来提交数据，没有数据长度的限制，提交
 使用 eval() 或者 JSON.parse() 鉴于安全性考虑，推荐使用 JSON.parse()更靠谱，对数据的安全性更好。
 ```
 
+9、两个数组的差集
+```
+方法一：
+function arrChange( a, b ){
+	var resultData = [];
+	for(var i = 0; i < a.length; i++){
+	    var flag = false;
+	    for(var j = 0; j < b.length; j++){
+	        if(b[j].id == a[i].id){
+	            flag = true;
+	            break;
+	        }
+	    }
+	    if(!flag){
+	        resultData.push(a[i]);
+	    }
+	}
+}
 
+方法二：
+function arrChange( a, b ){
+    for (var i = 0; i < b.length; i++) {
+        for (var j = 0; j < a.length; j++) {
+            if (a[j].id == b[i].id) {
+                a.splice(j, 1);
+                j = j - 1;
+            }
+        }
+    }
+    return a;
+}
+```
